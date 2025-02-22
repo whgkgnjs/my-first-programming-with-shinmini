@@ -6,6 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        div {
+            border: 1px solid pink;
+            margin: 0px 2px;
+            padding: 10px;
+        }
+    </style>
+
+    <div clas='hello'>
+        Hello
+        <div>
+            sldjflk;sdjfll
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fuga nostrum assumenda deleniti vel cupiditate repellendus autem, iure tempora numquam, unde, voluptates quasi architecto ullam minima officia voluptatibus optio. Dolorem.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const div = document.getElementsByClassName('.hello')
+
+        div.innerText = "hi there"
+        </script>
+
     
 </body>
 </html>
